@@ -64,6 +64,78 @@ body {
 
 /* / */
 /* / */
+/* Universal Footer */
+/* / */
+/* / */
+.footer-container {
+  width: 100%;
+  height: 200px;
+  background-color: var(--console-dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.resume-wrapper {
+  padding-top: 30px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.resume-link {
+  text-decoration: none;
+  color: var(--mint);
+  transition: .3s;
+}
+.resume-link:hover {
+  color: white;
+}
+.socials-wrapper {
+  padding-top: 30px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.social-link {
+  min-width: 60px;
+  min-height: 60px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin:0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  background: linear-gradient(0deg, rgb(157, 157, 157), #fff);
+  transition: .3s;
+}
+.social-link:hover {
+  box-shadow: 0 0 10px 10px rgba(169, 169, 169, 0.3);
+  background: linear-gradient(0deg, rgb(120, 120, 120), #fff);
+}
+.social-icon {
+  width: 60%;
+  height: 60%;
+  background: linear-gradient(0deg, rgb(193, 193, 193), #ddd);
+  line-height: calc(60px - 12px);
+  color: #262626;
+  transition: .5s;
+}
+.github:hover {
+  color: var(--mint);
+}
+.linkedin:hover {
+  color: #007bb6;
+}
+.email:hover {
+  color: #ef6c00;
+}
+.copyright {
+  padding-top: 10px;
+  color: white;
+}
+
+/* / */
+/* / */
 /* Landing Page */
 /* / */
 /* / */

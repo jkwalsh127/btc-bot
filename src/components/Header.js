@@ -3,13 +3,13 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
 
-  const navLinkStyles = ({ isActive }) => {
-    return {
-      fontSize: isActive ? '24px' : '20px',
-      textDecoration: isActive ? 'underline' : 'none',
-      color: isActive ? '#63D471' : '#FFFFFC',
-    }
-  }
+  // const navLinkStyles = ({ isActive }) => {
+  //   return {
+  //     fontSize: isActive ? '24px' : '20px',
+  //     textDecoration: isActive ? 'underline' : 'none',
+  //     color: isActive ? '#63D471' : '#FFFFFC',
+  //   }
+  // }
 
   const [small, setSmall] = useState(false);
 
@@ -26,23 +26,23 @@ const Header = () => {
       small ? "small" : ""
     }`}>
 
-      <NavLink className="app-title" to="/">
+      <NavLink className="app-title" to="/btc-bot/">
         Digital Eden
       </NavLink>
 
       <div className='nav'>
-        <NavLink style={navLinkStyles} className="nav-link" to="/indicators">
+        {/* <NavLink style={navLinkStyles} className="nav-link" to="/btc-bot/">
           Indicators
         </NavLink>
-        <NavLink style={navLinkStyles} className="nav-link" to="/algorithms">
+        <NavLink style={navLinkStyles} className="nav-link" to="/btc-bot/">
           Algorithms
         </NavLink>
-        <NavLink style={navLinkStyles} className="nav-link" to="/blog">
+        <NavLink style={navLinkStyles} className="nav-link" to="/btc-bot/">
           Blog
         </NavLink>
-        <NavLink style={navLinkStyles} className="nav-link" to="/about">
+        <NavLink style={navLinkStyles} className="nav-link" to="/btc-bot/">
           About Us
-        </NavLink>
+        </NavLink> */}
       </div>
 
     </header>

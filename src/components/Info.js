@@ -1,5 +1,6 @@
 import React from 'react';
 import photo from './images/btc-bot-results.png';
+import Footer from './Footer';
 
 function Info() {
   return (
@@ -28,6 +29,7 @@ function Info() {
             The simplicity of this algorithm is its beauty. It is always playing Bitcoin one way or the other, and it is always ahead of the game when storms start brewing.
           </p>
       </div>
+      <Footer />
     </div>
   );
 };
