@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/btc-bot/static/css/main.ac8a1c99.css",
-    "main.js": "/btc-bot/static/js/main.4e41b9cb.js",
+    "main.css": "/btc-bot/static/css/main.54e59c04.css",
+    "main.js": "/btc-bot/static/js/main.d802e075.js",
     "static/media/btc-bot.png": "/btc-bot/static/media/btc-bot.c58b4bdc9c9a2a3362ab.png",
     "static/media/btc-bot-results.png": "/btc-bot/static/media/btc-bot-results.296e9da7cf6f209cf034.png",
     "index.html": "/btc-bot/index.html",
-    "main.ac8a1c99.css.map": "/btc-bot/static/css/main.ac8a1c99.css.map",
-    "main.4e41b9cb.js.map": "/btc-bot/static/js/main.4e41b9cb.js.map"
+    "main.54e59c04.css.map": "/btc-bot/static/css/main.54e59c04.css.map",
+    "main.d802e075.js.map": "/btc-bot/static/js/main.d802e075.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac8a1c99.css",
-    "static/js/main.4e41b9cb.js"
+    "static/css/main.54e59c04.css",
+    "static/js/main.d802e075.js"
   ]
 }
