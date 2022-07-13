@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.2b27ed9e.js",
-    "static/js/787.fbff464c.chunk.js": "/static/js/787.fbff464c.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.2b27ed9e.js.map": "/static/js/main.2b27ed9e.js.map",
-    "787.fbff464c.chunk.js.map": "/static/js/787.fbff464c.chunk.js.map"
+    "main.css": "/btc-bot/static/css/main.926cd01c.css",
+    "main.js": "/btc-bot/static/js/main.7eb664b4.js",
+    "static/media/Hero.mp4": "/btc-bot/static/media/Hero.f6845970ddaa9b6f2e69.mp4",
+    "static/media/Stoch-RSI.png": "/btc-bot/static/media/Stoch-RSI.176e85f1755a13c06d3e.png",
+    "static/media/VWAP-RSI.png": "/btc-bot/static/media/VWAP-RSI.9a5e90f3acca9af25112.png",
+    "static/media/ETH-bot.png": "/btc-bot/static/media/ETH-bot.599b37fbe5480872c538.png",
+    "static/media/BTC-bot.png": "/btc-bot/static/media/BTC-bot.a6ab7484d5c199d0cac3.png",
+    "index.html": "/btc-bot/index.html",
+    "main.926cd01c.css.map": "/btc-bot/static/css/main.926cd01c.css.map",
+    "main.7eb664b4.js.map": "/btc-bot/static/js/main.7eb664b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.2b27ed9e.js"
+    "static/css/main.926cd01c.css",
+    "static/js/main.7eb664b4.js"
   ]
 }
