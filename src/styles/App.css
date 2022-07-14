@@ -69,7 +69,6 @@ body {
 .bot-title-show {
   font-size: 28px;
   color: var(--white);
-  width: 150px;
   margin: 0;
 }
 /* Upon scrolling from top of page, header shrinks slightly and takes on a horizontal background gradient that matches the colors of the info component */
