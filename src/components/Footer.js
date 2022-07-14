@@ -10,10 +10,10 @@ export default function Footer() {
   return (
     <footer className="footer-container">
         <div className='resume-wrapper'>
-            <a className='resume-link' href={resume} download='jake-walsh-resume' target='_blank' rel='noreferrer'>
+            <a className='resume-link font-resume-link' href={resume} download='jake-walsh-resume' target='_blank' rel='noreferrer'>
                 My Resume
             </a>
-            <a className='resume-link' href='https://jkwalsh127.github.io/my-portfolio-page/' target='_blank' rel='noreferrer'>
+            <a className='resume-link font-resume-link' href='https://jkwalsh127.github.io/my-portfolio-page/' target='_blank' rel='noreferrer'>
                 My Porftolio
             </a>
         </div>
@@ -37,7 +37,7 @@ export default function Footer() {
                 />
             </a>
         </div>
-        <p className='copyright'>Copyright © 2022 - All rights reserved by Digital Eden Inc. </p>
+        <p className='copyright font-copyright'>Copyright © 2022 - All rights reserved by Digital Eden Inc. </p>
     </footer>
   );
 };

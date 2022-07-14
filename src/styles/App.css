@@ -14,7 +14,7 @@
   --console-dark: #131722;
   --console-light: #1e2536;
   --gray: #F5EFE7;
-  --white: #F7FFF7;
+  --white: #e2e8d9;
 }
 html {
   background-color: black;
@@ -24,6 +24,33 @@ body {
   color: var(--white);
 }
 
+.font-header {
+  font-family: 'Chakra Petch', sans-serif;
+}
+.font-info-header {
+  font-family: 'Chakra Petch', sans-serif;
+}
+.font-paragraph {
+  font-family: 'Inconsolata', monospace;
+}
+.font-subheader {
+  font-family: 'Montserrat', sans-serif;
+}
+.font-resume-link {
+  font-family: 'Comfortaa', cursive;
+}
+.font-copyright {
+  font-family: 'Montserrat', sans-serif;
+}
+/* .fonts {
+  font-family: 'Maven Pro', sans-serif;
+  font-family: 'Questrial', sans-serif;
+  font-family: 'Cardo', serif;
+  font-family: 'Gulzar', serif;
+  font-family: 'Ibarra Real Nova', serif;
+  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+} */
 /* / */
 /* / */
 /* Universal header (nav bar) */
@@ -284,7 +311,7 @@ body {
 .description-paragraph {
   width: 100%;
   max-width: 800px;
-  color: white;
+  color: var(--white);
   text-align: left;
   line-height: 150%;
 }
