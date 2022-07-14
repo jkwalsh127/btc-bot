@@ -60,9 +60,9 @@ body {
   color: var(--white);
   width: 400px;
 }
-.bot-title-hide {
+/* .bot-title-hide {
   display: none;
-}
+} */
 .welcome-hide {
   display: none;
 }
@@ -196,7 +196,7 @@ body {
   position: absolute;
   margin-top: 100vh;
   width: 100%;
-  z-index: 500;
+  z-index: 900;
 }
 /* Info wrapper sets the maximum width for the content, aligns the content in a flex column, and provides the content with a lighter background */
 .info-wrapper {
@@ -228,7 +228,7 @@ body {
 .hero-wrapper-show {
   position: absolute;
   left: 0;
-  padding: 5% 0 0 10%;
+  padding: 120px 0 0 10%;
 }
 .hero-wrapper-hide {
   display: none;

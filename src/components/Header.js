@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const Header = ({poster}) => {
+const Header = () => {
 
   const [small, setSmall] = useState(false);
 
@@ -13,10 +13,10 @@ const Header = ({poster}) => {
   }, []);
 
   return (
-    <header className={`header ${poster && small ? "small" : ""}`}>
+    <header className={`header ${ small ? "small" : ""}`}>
 
       <div className="title-wrapper">
-        <h1 className={` ${poster ? "bot-title-show" : "bot-title-hide"} `} to="/btc-bot/">
+        <h1 className="bot-title-show" to="/btc-bot/">
           <span className="highlight-text">BTC</span> bot
         </h1>
       </div>

@@ -8,11 +8,8 @@ function Hero({setPoster, poster}) {
     <div className='hero-container'>
       <div className={`${poster ? "hero-wrapper-hide" : "hero-wrapper-show"}`}>
         <h2>
-          <h2 className='welcome-header'>
-            The <span className="highlight-text">Workhorse</span>.
-          </h2>
           <h3 className='welcome-subheader'>
-            Whether longing or shorting, this bot <br/>
+            Whether longing or shorting, this strategy <br/>
             is always in position to catch the next big move.
           </h3>
         </h2>
