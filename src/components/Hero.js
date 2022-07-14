@@ -1,18 +1,21 @@
-import React from 'react';
-// import video from './videos/Hero.mp4';
+import React, { useState } from "react";
+import video from './videos/btc-bot.mp4';
 import photo from './images/btc-bot.png';
 
 function Hero() {
+    
+  const [poster, setPoster] = useState(false);
+
   return (
     <div className='hero-container'>
-        {/* <video className="video" autoPlay muted>
+        <video className={`${poster ? "video-hide" : "video-display"}`} autoPlay muted onEnded={() => setPoster(true)}>
             <source
-            src={photo}
-            type="video/mp4"
+                src={video}
+                type="video/mp4"
             />
-        </video>   */}
-        <img className="video" src={photo} alt="hero" />
-        <div className="welcome-wrapper">      
+        </video>  
+        <img className={`${poster ? "image-display" : "image-hide"}`} src={photo} alt="hero" />
+        <div className={`${poster ? "welcome-wrapper-poster" : "welcome-wrapper"}`}>      
             <p className="welcome-header">
                 <span className="highlight-text">BTC</span> bot<br/>
             </p>
