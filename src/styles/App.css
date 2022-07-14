@@ -176,6 +176,8 @@ body {
 .hero-container {
   min-width: 100vw;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 /* Hero wrapper provides a dark, opaque gradient to lay over the background video */
 .hero-wrapper-show {
@@ -228,16 +230,24 @@ body {
 .hero-wrapper-show {
   position: absolute;
   left: 0;
-  padding: 120px 0 0 10%;
+  display: flex;
+  justify-content: center;
 }
 .hero-wrapper-hide {
   display: none;
 }
-.welcome-header {
-  margin: 0;
+.subheader-wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  padding-left: 200px;
 }
 .welcome-subheader {
-  margin: 0 0 0 100px;
+  margin: 140px 0 0 40px;
   font-size: 16px;
   line-height: 150%;
 }
