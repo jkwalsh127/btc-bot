@@ -17,7 +17,7 @@ const Header = () => {
 
       <div className="title-wrapper">
         <h1 className="bot-title-show" to="/btc-bot/">
-          the<span className="highlight-text">WORKHORSE</span>
+          the<span className="highlight-title">WORKHORSE</span>
         </h1>
       </div>
 

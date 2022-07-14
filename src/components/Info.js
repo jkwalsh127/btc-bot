@@ -11,7 +11,7 @@ function Info() {
         </div>
           <p className='description-paragraph'>
             <span className="name-highlight">Bitcoin</span>
-            <span className="custom-header">trading bot.</span>
+            <span className="custom-header"> trading bot.</span>
           </p>
           <p className='description-paragraph'>
             This script is all about staying on the right side of history.
