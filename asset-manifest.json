@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/btc-bot/static/css/main.7d568566.css",
-    "main.js": "/btc-bot/static/js/main.12556a08.js",
+    "main.css": "/btc-bot/static/css/main.8457dee3.css",
+    "main.js": "/btc-bot/static/js/main.879a1734.js",
     "static/media/btc-bot.mp4": "/btc-bot/static/media/btc-bot.feb32cd6d845d7c503e0.mp4",
     "static/media/btc-bot.png": "/btc-bot/static/media/btc-bot.0c8852e5c71a2abb5022.png",
-    "static/media/Resume (crypto).pdf": "/btc-bot/static/media/Resume (crypto).3dd2fe87a416aa360736.pdf",
+    "static/media/Resume (crypto).pdf": "/btc-bot/static/media/Resume (crypto).10815a0455746464371f.pdf",
     "static/media/btc-bot-results.png": "/btc-bot/static/media/btc-bot-results.296e9da7cf6f209cf034.png",
     "index.html": "/btc-bot/index.html",
-    "main.7d568566.css.map": "/btc-bot/static/css/main.7d568566.css.map",
-    "main.12556a08.js.map": "/btc-bot/static/js/main.12556a08.js.map"
+    "main.8457dee3.css.map": "/btc-bot/static/css/main.8457dee3.css.map",
+    "main.879a1734.js.map": "/btc-bot/static/js/main.879a1734.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d568566.css",
-    "static/js/main.12556a08.js"
+    "static/css/main.8457dee3.css",
+    "static/js/main.879a1734.js"
   ]
 }
