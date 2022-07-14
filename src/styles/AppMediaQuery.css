@@ -96,6 +96,9 @@
     .custom-header {
         font-size: 40px;
     }
+    .backtest-results {
+        max-height: 275px;
+      }
 }
 @media screen and (max-width: 500px) {
     .name-highlight {
@@ -135,6 +138,7 @@
     }
     .socials-wrapper {
         width: 250px;
+        padding-bottom: 40px;
     }
     .name-highlight {
         font-size: 28px;
