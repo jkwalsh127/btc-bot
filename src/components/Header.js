@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from 'react-router-dom';
 
-const Header = () => {
+const Header = ({poster}) => {
 
   // const navLinkStyles = ({ isActive }) => {
   //   return {
@@ -26,23 +26,13 @@ const Header = () => {
       small ? "small" : ""
     }`}>
 
-      <NavLink className="app-title" to="/btc-bot/">
-        Digital Eden
-      </NavLink>
-
-      <div className='nav'>
-        {/* <NavLink style={navLinkStyles} className="nav-link" to="/btc-bot/">
-          Indicators
+      <div className="title-wrapper">
+        <NavLink className={`" ${poster ? "app-title-show" : "app-title-hide"} `} to="/btc-bot/">
+          Digital Eden
         </NavLink>
-        <NavLink style={navLinkStyles} className="nav-link" to="/btc-bot/">
-          Algorithms
+        <NavLink className={` ${poster ? "bot-title-hide" : "bot-title-show"} `} to="/btc-bot/">
+          <span className="highlight-text">BTC</span> bot
         </NavLink>
-        <NavLink style={navLinkStyles} className="nav-link" to="/btc-bot/">
-          Blog
-        </NavLink>
-        <NavLink style={navLinkStyles} className="nav-link" to="/btc-bot/">
-          About Us
-        </NavLink> */}
       </div>
 
     </header>

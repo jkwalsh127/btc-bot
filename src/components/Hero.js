@@ -1,10 +1,8 @@
-import React, { useState } from "react";
 import video from './videos/btc-bot.mp4';
 import photo from './images/btc-bot.png';
 
-function Hero() {
+function Hero({setPoster, poster}) {
     
-  const [poster, setPoster] = useState(false);
 
   return (
     <div className='hero-container'>
