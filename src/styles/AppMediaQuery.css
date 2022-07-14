@@ -9,6 +9,14 @@
         font-size: 40px;
     }
 }
+@media screen and (max-width: 1000px) {
+    .info-wrapper {
+        width: 100%;
+    }
+    .description-paragraph {
+        width: 80%;
+    }
+}
 @media screen and (max-width: 900px) {
     .small {
         height: 50px;
@@ -18,6 +26,17 @@
     }
     .highlight-title {
         font-size: 32px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .name-highlight {
+        font-size: 50px;
+    }
+    .custom-header {
+        font-size: 50px;
+    }
+    .description-paragraph {
+        width: 90%;
     }
 }
 @media screen and (max-width: 650px) {
@@ -30,6 +49,20 @@
     .highlight-title {
         font-size: 26px;
     }
+    .name-highlight {
+        font-size: 40px;
+    }
+    .custom-header {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .name-highlight {
+        font-size: 34px;
+    }
+    .custom-header {
+        font-size: 34px;
+    }
 }
 @media screen and (max-width: 450px) {
     .bot-title-show {
@@ -37,6 +70,12 @@
     }
     .highlight-title {
         font-size: 22px;
+    }
+    .info-wrapper {
+        padding-bottom: 50px;
+    }
+    .backtest-wrapper {
+        margin-bottom: 20px;
     }
     .footer-container {
         padding-bottom: 20px;
@@ -49,6 +88,12 @@
 @media screen and (max-width: 400px) {
     .socials-wrapper {
         width: 250px;
+    }
+    .name-highlight {
+        font-size: 28px;
+    }
+    .custom-header {
+        font-size: 28px;
     }
 }
 
