@@ -189,6 +189,9 @@
     }
 }
 @media screen and (min-height: 750px) and (max-width: 950px) {
+    .header {
+        padding-top: 0px;
+    }
     .hero-container {
         min-height: 50vh;
     }
@@ -223,6 +226,9 @@
     }
 }
 @media screen and (min-height: 450px) and (max-width: 800px) {
+    .header {
+        padding-top: 0px;
+    }
     .hero-container {
         min-height: 80vh;
     }
@@ -249,9 +255,6 @@
     .video-show {
         height: 50vh;
     }
-    .header {
-        padding-top: 0px;
-    }
     .small {
         padding-top: 0px;
     }
@@ -269,19 +272,19 @@
 }
 @media screen and (min-height: 700px) and (max-width: 800px) {
     .hero-container {
-        min-height: 50vh;
+        min-height: 40vh;
     }
     .hero-wrapper-show {
-        min-height: 50vh;
+        min-height: 40vh;
     }
     .video-show {
-        height: 50vh;
+        height: 40vh;
     }
     .image-show {
-        height: 50vh;
+        height: 40vh;
     }
     .info-container {
-        margin-top: 50vh;
+        margin-top: 40vh;
     }
 }
 @media screen and (min-height: 900px) and (max-width: 800px) {

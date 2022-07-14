@@ -23,6 +23,10 @@ body {
   margin: 0;
   color: var(--white);
 }
+.highlight {
+  color: var(--mint);
+  font-size: 20px;
+}
 
 .font-header {
   font-family: 'Chakra Petch', sans-serif;
