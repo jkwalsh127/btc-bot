@@ -10,7 +10,8 @@ function Info() {
           <img className="backtest-results" src={photo} alt="backtest results" /> 
         </div>
           <p className='description-paragraph'>
-            <span className="custom-header">The </span><span className="name-highlight">Workhorse</span><span className="custom-header">.</span>
+            <span className="name-highlight">Bitcoin</span>
+            <span className="custom-header">trading bot.</span>
           </p>
           <p className='description-paragraph'>
             This script is all about staying on the right side of history.
