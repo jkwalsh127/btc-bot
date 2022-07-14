@@ -45,6 +45,7 @@
 @media screen and (max-width: 1000px) {
     .info-wrapper {
         width: 100%;
+        box-shadow: none;
     }
     .description-paragraph {
         width: 80%;
@@ -150,7 +151,182 @@
         padding-left: 30px;
     }
 }
+@media screen and (max-width: 300px) {
+    .title-wrapper {
+        padding-left: 10px;
+    }
+    .subheader-wrapper {
+        padding-left: 20px;
+    }
+}
 
+
+
+
+
+/* / */
+/* / */
+/* / */
+/* / Tall but Slender */
+/* / */
+/* / */
+/* / */
+@media screen and (min-height: 650px) and (max-width: 950px) {
+    .hero-container {
+        min-height: 80vh;
+    }
+    .hero-wrapper-show {
+        min-height: 80vh;
+    }
+    .video-show {
+        height: 80vh;
+    }
+    .image-show {
+        height: 80vh;
+    }
+    .info-container {
+        margin-top: 80vh;
+    }
+}
+@media screen and (min-height: 750px) and (max-width: 950px) {
+    .hero-container {
+        min-height: 50vh;
+    }
+    .hero-wrapper-show {
+        min-height: 50vh;
+    }
+    .video-show {
+        height: 50vh;
+    }
+    .image-show {
+        height: 50vh;
+    }
+    .info-container {
+        margin-top: 50vh;
+    }
+}
+@media screen and (min-height: 750px) and (max-width: 700px) {
+    .hero-container {
+        min-height: 60vh;
+    }
+    .hero-wrapper-show {
+        min-height: 60vh;
+    }
+    .video-show {
+        height: 60vh;
+    }
+    .image-show {
+        height: 60vh;
+    }
+    .info-container {
+        margin-top: 60vh;
+    }
+}
+@media screen and (min-height: 450px) and (max-width: 800px) {
+    .hero-container {
+        min-height: 80vh;
+    }
+    .hero-wrapper-show {
+        min-height: 80vh;
+    }
+    .video-show {
+        height: 80vh;
+    }
+    .image-show {
+        height: 80vh;
+    }
+    .info-container {
+        margin-top: 80vh;
+    }
+}
+@media screen and (min-height: 550px) and (max-width: 800px) {
+    .hero-container {
+        min-height: 50vh;
+    }
+    .hero-wrapper-show {
+        min-height: 50vh;
+    }
+    .video-show {
+        height: 50vh;
+    }
+    .header {
+        padding-top: 0px;
+    }
+    .small {
+        padding-top: 0px;
+    }
+    .welcome-subheader {
+        margin-top: 60px;
+        margin-left: 0px;
+        font-size: 12px;
+    }
+    .image-show {
+        height: 50vh;
+    }
+    .info-container {
+        margin-top: 50vh;
+    }
+}
+@media screen and (min-height: 700px) and (max-width: 800px) {
+    .hero-container {
+        min-height: 50vh;
+    }
+    .hero-wrapper-show {
+        min-height: 50vh;
+    }
+    .video-show {
+        height: 50vh;
+    }
+    .image-show {
+        height: 50vh;
+    }
+    .info-container {
+        margin-top: 50vh;
+    }
+}
+@media screen and (min-height: 900px) and (max-width: 800px) {
+    .hero-container {
+        min-height: 40vh;
+    }
+    .hero-wrapper-show {
+        min-height: 40vh;
+    }
+    .video-show {
+        height: 40vh;
+    }
+    .image-show {
+        height: 40vh;
+    }
+    .info-container {
+        margin-top: 40vh;
+    }
+}
+
+/* / */
+/* / */
+/* / */
+/* / Short but Wide */
+/* / */
+/* / */
+/* / */
+@media screen and (max-height: 650px) and (min-width: 800px) {
+    .header {
+        padding-top: 40px;
+    }
+    .small {
+        padding-top: 0;
+    }
+    .title-wrapper {
+        padding-left: 50px;
+    }
+    .subheader-wrapper {
+        padding-left: 120px;
+    }
+    .welcome-subheader {
+        margin-top: 110px;
+        margin-left: 0;
+    }
+}
 
 /* / */
 /* / */
@@ -192,158 +368,5 @@
     .welcome-subheader {
         margin-top: 60px;
         margin-left: 30px;
-    }
-}
-
-
-/* / */
-/* / */
-/* / */
-/* / Tall but Slender */
-/* / */
-/* / */
-/* / */
-@media screen and (min-height: 650px) and (max-width: 950px) {
-    .hero-container {
-        min-height: 80vh;
-    }
-    .hero-wrapper-show {
-        min-height: 80vh;
-    }
-    .image-show {
-        height: 80vh;
-    }
-    .info-container {
-        margin-top: 80vh;
-    }
-}
-@media screen and (min-height: 750px) and (max-width: 950px) {
-    .hero-container {
-        min-height: 70vh;
-    }
-    .hero-wrapper-show {
-        min-height: 70vh;
-    }
-    .image-show {
-        height: 70vh;
-    }
-    .info-container {
-        margin-top: 70vh;
-    }
-}
-@media screen and (min-height: 750px) and (max-width: 700px) {
-    .hero-container {
-        min-height: 60vh;
-    }
-    .hero-wrapper-show {
-        min-height: 60vh;
-    }
-    .image-show {
-        height: 60vh;
-    }
-    .info-container {
-        margin-top: 60vh;
-    }
-}
-@media screen and (min-height: 450px) and (max-width: 800px) {
-    .hero-container {
-        min-height: 80vh;
-    }
-    .hero-wrapper-show {
-        min-height: 80vh;
-    }
-    .video-show {
-        height: 80vh;
-    }
-    .image-show {
-        height: 80vh;
-    }
-    .info-container {
-        margin-top: 80vh;
-    }
-}
-@media screen and (min-height: 550px) and (max-width: 800px) {
-    .hero-container {
-        min-height: 60vh;
-    }
-    .hero-wrapper-show {
-        min-height: 60vh;
-    }
-    .video-show {
-        height: 60vh;
-    }
-    .header {
-        padding-top: 40px;
-    }
-    .small {
-        padding-top: 0px;
-    }
-    .welcome-subheader {
-        margin-top: 100px;
-        margin-left: 20px;
-    }
-    .image-show {
-        height: 60vh;
-    }
-    .info-container {
-        margin-top: 60vh;
-    }
-}
-@media screen and (min-height: 700px) and (max-width: 800px) {
-    .hero-container {
-        min-height: 50vh;
-    }
-    .hero-wrapper-show {
-        min-height: 50vh;
-    }
-    .video-show {
-        height: 50vh;
-    }
-    .image-show {
-        height: 50vh;
-    }
-    .info-container {
-        margin-top: 50vh;
-    }
-}
-@media screen and (min-height: 900px) and (max-width: 800px) {
-    .hero-container {
-        min-height: 40vh;
-    }
-    .hero-wrapper-show {
-        min-height: 40vh;
-    }
-
-    .image-show {
-        height: 40vh;
-    }
-    .info-container {
-        margin-top: 40vh;
-    }
-}
-
-/* / */
-/* / */
-/* / */
-/* / Short but Wide */
-/* / */
-/* / */
-/* / */
-@media screen and (max-height: 650px) and (min-width: 800px) {
-    .header {
-        padding-top: 40px;
-    }
-    .small {
-        padding-top: 0;
-    }
-    .title-wrapper {
-        padding-left: 0;
-    }
-    .subheader-wrapper {
-        padding-left: 120px;
-    }
-    .welcome-subheader {
-        margin-top: 110px;
-        margin-left: 0;
     }
 }
