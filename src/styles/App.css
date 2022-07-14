@@ -125,7 +125,7 @@ body {
 }
 .resume-wrapper {
   padding-top: 30px;
-  width: 200px;
+  width: 250px;
   display: flex;
   justify-content: space-between;
 }
@@ -304,6 +304,7 @@ body {
 .backtest-results {
   width: 100%;
   max-width: 900px;
+  max-height: 350px;
 }
 .custom-header {
   font-size: 60px;
