@@ -253,9 +253,6 @@ body {
 .video-show {
   height: 100vh;
   max-width: 100vw;
-  align-self: center;
-  position: absolute;
-  left: 0;
 }
 .video-hide {
   display: none;
