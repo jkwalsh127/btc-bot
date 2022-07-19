@@ -55,6 +55,7 @@ body {
   font-family: 'Rajdhani', sans-serif;
   font-family: 'Montserrat', sans-serif;
 } */
+
 /* / */
 /* / */
 /* Universal header (nav bar) */
@@ -72,6 +73,12 @@ body {
   transition: .9s;
   padding-top: 70px;
 }
+/* Upon scrolling from top of page, header shrinks slightly and takes on a horizontal background gradient that matches the colors of the info component */
+.small {
+  height: 60px;
+  background: linear-gradient(0.25turn, var(--console-dark), var(--console-light), var(--console-dark), var(--console-dark));
+  padding-top: 0px;
+}
 .title-wrapper {
   width: 100%;
   max-width: 1000px;
@@ -87,9 +94,6 @@ body {
   color: var(--white);
   width: 400px;
 }
-/* .bot-title-hide {
-  display: none;
-} */
 .welcome-hide {
   display: none;
 }
@@ -102,13 +106,6 @@ body {
   font-size: 50px;
   color: var(--mint);
 }
-/* Upon scrolling from top of page, header shrinks slightly and takes on a horizontal background gradient that matches the colors of the info component */
-.small {
-  height: 60px;
-  background: linear-gradient(0.25turn, var(--console-dark), var(--console-light), var(--console-dark), var(--console-dark));
-  padding-top: 0px;
-}
-
 
 /* / */
 /* / */
@@ -187,7 +184,11 @@ body {
 
 /* / */
 /* / */
+/* / */
+/* / */
 /* Landing Page */
+/* / */
+/* / */
 /* / */
 /* / */
 
@@ -196,12 +197,6 @@ body {
 /* Component containers and wrappers */
 /* / */
 /* / */
-/* Organizes page section into a single flex column */
-.landing-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
 /* Hero component is the height of the viewport, containing a welcome heading with a video as background */
 .hero-container {
   min-width: 100vw;
@@ -216,17 +211,15 @@ body {
   z-index: 900;
   background: linear-gradient(0.25turn, #000000, #000000b2, #00000055, #00000035, #00000000);
   position: absolute;
-  display: block;
+  left: 0;
 }
 /* Hero wrapper will remove the dark gradient overlay when video is finished playing, showing a clear display of the chart's still image */
 .hero-wrapper-hide {
-  background: #00000000;
+  display: none;
 }
-/* Info container positions the component below the hero component and provides a dark background for the content to sit on top of */
+/* Info container is positioned below the hero component and provides a dark background for the content to sit on top of */
 .info-container {
   background-color: var(--console-dark);
-  position: absolute;
-  margin-top: 100vh;
   width: 100%;
   z-index: 900;
 }
@@ -241,6 +234,10 @@ body {
   background-color: var(--console-light);
   box-shadow: 0px 5px 80px var(--console-light);
   padding-bottom: 100px;
+}
+/* Backtest info wrpper provides a section to describe what is being shown in the backtest image below it */
+.backtest-info-wrapper {
+
 }
 /* Backtest wrapper provides a seamless background color that matches the console in the image */
 .backtest-wrapper {
@@ -257,15 +254,6 @@ body {
 /* Hero component */
 /* / */
 /* / */
-.hero-wrapper-show {
-  position: absolute;
-  left: 0;
-  display: flex;
-  justify-content: center;
-}
-.hero-wrapper-hide {
-  display: none;
-}
 .subheader-wrapper {
   width: 100%;
   max-width: 1000px;
@@ -312,6 +300,13 @@ body {
 .name-highlight {
   font-size: 60px;
   color: var(--mint);
+}
+.backtest-info {
+  width: 100%;
+  max-width: 800px;
+  text-align: left;
+  line-height: 130%;
+  color: #a0a0a0;
 }
 .description-paragraph {
   width: 100%;

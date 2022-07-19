@@ -50,6 +50,9 @@
     .description-paragraph {
         width: 80%;
     }
+    .backtest-info {
+        width: 80%;
+    }
 }
 @media screen and (max-width: 900px) {
     .small {
@@ -70,6 +73,9 @@
         font-size: 50px;
     }
     .description-paragraph {
+        width: 90%;
+    }
+    .backtest-info {
         width: 90%;
     }
 }
@@ -163,10 +169,6 @@
         padding-left: 20px;
     }
 }
-
-
-
-
 
 /* / */
 /* / */
@@ -345,7 +347,7 @@
 /* / */
 /* / */
 /* / */
-/* // Abnormal Heights */
+/* / Abnormal Heights */
 /* / */
 /* / */
 /* / */
