@@ -190,9 +190,6 @@
     .image-show {
         height: 80vh;
     }
-    .info-container {
-        margin-top: 80vh;
-    }
 }
 @media screen and (min-height: 750px) and (max-width: 950px) {
     .header {
@@ -217,9 +214,6 @@
     .image-show {
         height: 50vh;
     }
-    .info-container {
-        margin-top: 50vh;
-    }
 }
 @media screen and (min-height: 750px) and (max-width: 700px) {
     .hero-container {
@@ -233,9 +227,6 @@
     }
     .image-show {
         height: 60vh;
-    }
-    .info-container {
-        margin-top: 60vh;
     }
 }
 @media screen and (min-height: 450px) and (max-width: 800px) {
@@ -253,9 +244,6 @@
     }
     .image-show {
         height: 80vh;
-    }
-    .info-container {
-        margin-top: 80vh;
     }
 }
 @media screen and (min-height: 550px) and (max-width: 800px) {
@@ -279,9 +267,6 @@
     .image-show {
         height: 50vh;
     }
-    .info-container {
-        margin-top: 50vh;
-    }
 }
 @media screen and (min-height: 700px) and (max-width: 800px) {
     .hero-container {
@@ -296,9 +281,6 @@
     .image-show {
         height: 40vh;
     }
-    .info-container {
-        margin-top: 40vh;
-    }
 }
 @media screen and (min-height: 900px) and (max-width: 800px) {
     .hero-container {
@@ -312,9 +294,6 @@
     }
     .image-show {
         height: 40vh;
-    }
-    .info-container {
-        margin-top: 40vh;
     }
 }
 

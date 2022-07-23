@@ -237,7 +237,8 @@ body {
 }
 /* Backtest info wrpper provides a section to describe what is being shown in the backtest image below it */
 .backtest-info-wrapper {
-
+  display: flex;
+  justify-content: center;
 }
 /* Backtest wrapper provides a seamless background color that matches the console in the image */
 .backtest-wrapper {
@@ -304,7 +305,7 @@ body {
 .backtest-info {
   width: 100%;
   max-width: 800px;
-  text-align: left;
+  text-align: center;
   line-height: 130%;
   color: #a0a0a0;
 }
